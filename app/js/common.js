@@ -13,17 +13,17 @@ $(function() {
 			infinite: true,
 			speed: 2000,
 			fade: true,
-			/*slidesToShow: 1,
+			slidesToShow: 1,
 			slidesToScroll: 1,
 			autoplay: true,
-			autoplaySpeed: 9000,*/
+			autoplaySpeed: 9000,
 		});
 	});
 	
 
 	$(".s-carus-partners .partners").owlCarousel({
 		loop:true,
-		/*autoplay:true,*/
+		autoplay:true,
 		margin: 60,
 		responsive:{
 				0:{

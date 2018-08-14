@@ -1,0 +1,9 @@
+Host: trojan-killer.com
+
+
+Sitemap: https://trojan-killer.com/sitemap.xml
+Sitemap: https://trojan-killer.com/sitemap_index.xml
+
+
+User-agent: Yandex
+Crawl-delay: 2 # timeout 2 sec

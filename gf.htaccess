@@ -1,0 +1,8 @@
+<ifModule mod_expires.c>
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTPS_HOST} ^www.rosskas\.github\.io$ [NC]
+RewriteRule ^(.*)$ https://rosskas.github.io/$1 [R=301,L]
+
+
+</ifModule>

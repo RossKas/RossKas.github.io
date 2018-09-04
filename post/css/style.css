@@ -1479,6 +1479,9 @@ textarea:focus, input:focus {
         top: 0px;
         padding-top: 100px;
     }
+    .s-review .form-gen {
+        padding: 0;
+    }
     .form-gen {
         padding: 0 0 160px;
     }

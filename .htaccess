@@ -1,14 +1,15 @@
-<ifModule mod_expires.c>
 RewriteEngine On
 
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTPS/
+
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
 RewriteRule ^index\.html$ https://rosskas.github.io/ [R=301,L]
 
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTPS/
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
 RewriteRule ^index\.php$ https://rosskas.github.io/ [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^www\.(.*)$
-RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
 
 
-</ifModule>
+

@@ -1,14 +1,12 @@
 @font-face {
-    font-family: 'Comfortaa_Bold';
-    src: url('../fonts/comfortaa/Comfortaa_Bold.ttf') format('truetype');
-}
-@font-face {
     font-family: 'Comfortaa_Regular';
-    src: url('../fonts/comfortaa/Comfortaa_Regular.ttf') format('truetype');
+    src: url('../fonts/comfortaa/Comfortaa_Regular.woff2') format('woff2'),
+    url('../fonts/comfortaa/Comfortaa_Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Comfortaa_Thin';
-    src: url('../fonts/comfortaa/Comfortaa_Thin.ttf') format('truetype');
+    src: url('../fonts/comfortaa/Comfortaa_Thin.woff2') format('woff2'),
+    url('../fonts/comfortaa/Comfortaa_Thin.ttf') format('truetype');
 }
 html,body {
     height: 100%;

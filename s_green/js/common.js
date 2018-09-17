@@ -323,6 +323,169 @@ $(function() {
 		}
 	});
 	
+	function initialize() {
+            var customStyles = [{
+                "featureType": "water",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#d3d3d3"
+                }]
+            }, {
+                "featureType": "transit",
+                "stylers": [{
+                    "color": "#808080"
+                }, {
+                    "visibility": "off"
+                }]
+            }, {
+                "featureType": "road.highway",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "visibility": "on"
+                }, {
+                    "color": "#b3b3b3"
+                }]
+            }, {
+                "featureType": "road.highway",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#ffffff"
+                }]
+            }, {
+                "featureType": "road.local",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "visibility": "on"
+                }, {
+                    "color": "#ffffff"
+                }, {
+                    "weight": 1.8
+                }]
+            }, {
+                "featureType": "road.local",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "color": "#d7d7d7"
+                }]
+            }, {
+                "featureType": "poi",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "visibility": "on"
+                }, {
+                    "color": "#ebebeb"
+                }]
+            }, {
+                "featureType": "administrative",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#a7a7a7"
+                }]
+            }, {
+                "featureType": "road.arterial",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#ffffff"
+                }]
+            }, {
+                "featureType": "road.arterial",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#ffffff"
+                }]
+            }, {
+                "featureType": "landscape",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "visibility": "on"
+                }, {
+                    "color": "#efefef"
+                }]
+            }, {
+                "featureType": "road",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#696969"
+                }]
+            }, {
+                "featureType": "administrative",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "visibility": "on"
+                }, {
+                    "color": "#737373"
+                }]
+            }, {
+                "featureType": "poi",
+                "elementType": "labels.icon",
+                "stylers": [{
+                    "visibility": "off"
+                }]
+            }, {
+                "featureType": "poi",
+                "elementType": "labels",
+                "stylers": [{
+                    "visibility": "off"
+                }]
+            }, {
+                "featureType": "road.arterial",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "color": "#d6d6d6"
+                }]
+            }, {
+                "featureType": "road",
+                "elementType": "labels.icon",
+                "stylers": [{
+                    "visibility": "off"
+                }]
+            }, {}, {
+                "featureType": "poi",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#dadada"
+                }]
+            }];
+
+            var myLatlng = new google.maps.LatLng(40.676281, -73.925755);
+
+            var mapOptions = {
+                zoom: 14,
+                center: myLatlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                styles: customStyles,
+                scrollwheel: false,
+                draggable: !("ontouchend" in document)
+            };
+
+            var map = new google.maps.Map(document.getElementById('contacts-map'), mapOptions);
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map
+            });
+
+            var infowindow = new google.maps.InfoWindow({
+                content: "<b>GridinSoft LLC</b><br/>Pervomayskaya 20A<br/>39600 Kremenchug"
+            });
+
+            google.maps.event.addListener(marker, 'click', function() {
+                infowindow.open(map, marker);
+            });
+
+            map.addListener('center_changed', function() {
+                window.setTimeout(function() {
+                    map.panTo(marker.getPosition());
+                }, 1000);
+            });
+
+            // marker.addListener('click', function() {
+            //     map.setZoom(8);
+            //     map.setCenter(marker.getPosition());
+            // });
+
+            infowindow.open(map, marker);
+        }
 
 
 });

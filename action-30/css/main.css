@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/9115.otf') format("opentype");
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Helvetica', 'Open Sans', 'Arial';
+    
+}
+.container {
+    
+    padding-right: 0.93vw;
+    padding-left: 0.93vw;
+    margin-right: auto;
+    margin-left: auto
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: gray;
+}
+    
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    }
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #fff;
+    }
+
+.container {
+    position: relative;
+    width: 88.1vw;
+    padding-left: 0;
+    padding-right: 0;
+}
+#main-content {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-top: 4.6vw;
+    height: 66.75vw;
+    margin: auto;
+    background-image: url('../img/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /* background-color: rgba(16, 32, 38, 1); */
+}
+#main-content h1 {
+    position: relative;
+    top: 0;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5vw;
+    padding: 0 2.5vw;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 2px;
+}
+.name_company {
+    font-family: "BebasNeueRegular", sans-serif;
+    font-weight: normal;
+    position: relative;
+    left: 1.5vw;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    /* color: #c3e2ff; */
+    margin-top: 0;
+    position: absolute;
+    color: rgba(255, 255, 255, 1);
+}
+.name_company span {
+    font-family: "BebasNeueRegular", sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.name_company span span {
+    position: absolute;
+    top: 0.4vw;
+    height: auto;
+    font-size: 1.3vw!important;
+}
+.titl {
+    position: relative;
+    top: 0;
+    color: #0fb6ed;
+    left: 3.9vw;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+#main-content h1 span {
+    font-size: 3vw;
+}
+#main-content p {
+    position: relative;
+    top: 1vw;
+    left: 4vw;
+    font-size: 0.9vw;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+    z-index: 2;
+    width: 20vw;
+    /*text-align: justify;*/
+}
+.gre_b {
+    position: relative;
+    width: 26vw;
+    height: 16vw;
+    left: 4vw;
+    border-radius: 0.2vw;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.proc {
+    position: absolute;
+    left: 2vw;
+    top: 0.7vw;
+    width: 7.5vw;
+    height: 2.7vw;
+    border: 0.15vw solid #d0021b;
+}
+.proc h5 {
+    position: relative;
+    color: #d0021b;
+    font-size: 2vw;
+    text-align: center;
+}
+.proc_1 {
+    position: absolute;
+    right: 2vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    top: 0.5vw;
+    color: #4a4a4a;
+}
+.proc_1 .lin {
+    position: absolute;
+    width: 6vw;
+    height: 0.14vw;
+    transform: rotate(-23deg);
+    background-color: #4a4a4a;
+    right: -1vw;
+    top: 1.6vw;
+}
+.proc_2 {
+    position: absolute;
+    right: 7.5vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    top: 2.5vw;
+    color: #d0021b;
+}
+.proc_1 h6 {
+    font-size: 3vw;
+    font-family: "Lato", sans-serif;
+    color: #4a4a4a;
+}
+.proc_1 .fa {
+    font-size: 1vw;
+    position: absolute;
+    left: -0.5vw;
+    top: 0.5vw;
+}
+.proc_1 h5 {
+    font-size: 0.9vw;
+    position: absolute;
+    right: -0.5vw;
+    top: 0.3vw;
+}
+.proc_2 h6 {
+    font-size: 7vw;
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+}
+.proc_2 .fa {
+    font-size: 1.5vw;
+    position: absolute;
+    left: -0.4vw;
+    top: 1.5vw;
+}
+.proc_2 h5 {
+    font-size: 1.7vw;
+    position: absolute;
+    right: -1vw;
+    top: 1.1vw;
+    font-family: "Lato", sans-serif;
+}
+.gre_b h4 {
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    color: #4a4a4a;
+    top: 7vw;
+    font-size: 1.7vw;
+    left: 4vw;
+    font-weight: 100;
+}
+.buy_now {
+    position: absolute;
+    left: 1vw;
+    bottom: 1.1vw;
+    width: 24.1vw;
+    height: 4vw;
+    border-radius: 0.2vw;
+    background-color: #d0021b;
+    display: flex;
+    color: rgba(255,255,255,1);
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.buy_now .fa-cart-arrow-down{
+    font-size: 1.8vw;
+    position: absolute;
+    left: 5vw;
+}
+.buy_now h2 {
+        display: inline-block;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-family: "Lato", sans-serif;
+    padding-left: 2vw;
+    font-weight: 100;
+    opacity: 1;
+}
+.block_star {
+    position: relative;
+    left: 4vw;
+    padding: 0.5vw 0;
+}
+.block_star .fa {
+    display: inline-block;
+    font-size: 0.7vw;
+    color: #f8e71c;
+}
+.block_star h6 {
+    display: inline-block;
+    font-size: 0.6vw;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.flag {
+    position: absolute;
+    right: 14vw;
+    top: 0;
+    width: 7vw;
+}
+#main-content>h6 {
+    position: absolute;
+    right: 14vw;
+    top: 1.2vw;
+    width: 7vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 200;
+    color: #fff;
+}
+
+.flag img
+#main-content .gap {
+    position: relative;
+    display: inline-block;
+    padding-left: 0.56vw;
+    background-color: #e0eef5;
+    transform: skew(-20deg);
+    color: rgba(13, 165, 214, 1);
+}
+
+#main-content .text-deg {
+    display: inline-block;
+    position: relative;
+    transform: skew(20deg);
+}
+
+#main-content p span:nth-child(3) strong {
+    font-weight: 600;
+    padding: 0 0.6vw;
+
+}
+#secondary-content .secondary-wrap #download {
+    position: absolute;
+    top: 4.75vw;
+    right: -25vw;
+    text-align: center;
+}
+#secondary-content .secondary-wrap #download a {
+    display: block;
+    height: 3.21vw;
+    width: 17.5vw;
+    line-height: 3.21vw;
+    background-color: rgba(13, 182, 237, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.25vw;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 0.187vw;
+    border-radius: 0.321vw;
+    box-shadow: 0 0 0.93vw 0.4vw rgba(13, 182, 237, 0.3);
+    animation-delay: 1.7s;
+}
+#secondary-content .secondary-wrap #download a:hover {
+    box-shadow: 0 0 30px 6px rgba(13, 182, 237, 0.3);
+}
+#secondary-content .secondary-wrap #download span {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.75vw;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+#main-content #shield {
+    display: none;
+    position: absolute;
+    top: 0.5vw;
+    left: 0;
+    width: 28vw;
+}
+#main-content #shield img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+#main-content #actions {
+    background: url('../img/dotted-border.png') left center no-repeat;
+    width: 100%;
+    height: 7.1vw;
+    position: absolute;
+    top: 51.8vw;
+    /* left: 37.5px; */
+}
+#main-content #actions h2 {
+    position: relative;
+    top: -0.7vw;
+    left: 3.2vw;
+    font-size: 1.2vw;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+#main-content .fon-block {
+    position: absolute;
+    background-color: #146286;
+    height: 7.3vw;
+    width: 114%;
+    top: 55vw;
+    left: -6vw;
+}
+#main-content #actions h4 {
+    position: relative;
+    text-align: center;
+    top: 5.6vw;
+    opacity: 0.76;
+    left: 3.75vw;
+    font-size: 2.25vw;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+#main-content #actions h4 a {
+    color: rgba(255, 255, 255, 0.76);
+    transition: all .5s ease
+}
+#main-content #actions h4 a:hover {
+    color: #146286;
+}
+#main-content #actions h2 strong {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+#main-content #actions ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+#main-content #actions ul li {
+    position: absolute;
+    height: 2.7vw;
+    top: 5.4vw;
+    font-size: 1.4vw;
+    font-weight: 100;
+    color: #fff;
+    font-style: italic;
+    list-style: none;
+    padding-left: 4vw;
+    padding-top: 0;
+}
+#main-content #actions ul li:nth-child(1) {
+    left: 4.3vw;
+    background: url('../img/umbrella.png') left center no-repeat;
+    background-size: contain;
+}
+#main-content #actions ul li:nth-child(2) {
+    left: 28vw;
+    background: url('../img/timer.png') left center no-repeat;
+    background-size: contain;
+}
+#main-content #actions ul li:nth-child(3) {
+    left: 47.5vw;
+    background: url('../img/speaker.png') left center no-repeat;
+    background-size: contain;
+    padding-left: 6vw;
+}
+#secondary-content {
+    width: 100%;
+    height: 17.3vw;
+    background-color: rgba(16, 32, 38, 1);
+    padding-top: 1.25vw;
+    padding-bottom: 1.25vw;
+    position: relative;
+
+}
+#secondary-content .secondary-wrap {
+    position: relative;
+    display: inline-block;
+
+}
+#secondary-content .secondary-wrap #trust {
+    background: url('../img/dotted-hr.png') center center no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.8vw;
+    left: 0;
+    right: 0;
+    float: left;
+}
+#secondary-content .secondary-wrap #trust p {
+    font-size: 1.4vw;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    color: rgba(114, 123, 127, 0.8);
+    text-align: center;
+}
+#secondary-content .secondary-wrap #partners {
+    position: relative;
+    text-align: center;
+    margin: 1.25vw 0;
+    float: left;
+    width: 100%;
+}
+
+.COMSS1 {
+  width: 12.6vw;
+  height: 3.7vw;
+  object-fit: contain;
+}
+.logo_cnet-1 {
+  width: 9vw;
+  height: 3.6vw;
+  object-fit: contain;
+}
+
+.opswat {
+  width: 8.8vw;
+  height: 4.1vw;
+  object-fit: contain;
+}
+#secondary-content .secondary-wrap #partners img {
+
+    height: 2.8vw;
+    display: inline-block;
+}
+#secondary-content .secondary-wrap #partners img:nth-child(2) {
+    margin-left: 0.6vw;
+    margin-right: 0.6vw;
+}
+#main-footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(16, 32, 38, 1);
+    padding-top: 0.9vw;
+    padding-bottom: 0.9vw;
+}
+#main-footer p {
+    font-size: 0.87vw;
+    font-weight: 100;
+    margin: 0;
+    padding: 0 11.5vw;
+    color: rgba(85, 96, 100, 1);
+}
+#main-footer p a {
+    color: rgba(85, 96, 100, 1);
+    text-decoration: none;
+}
+#main-footer p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+

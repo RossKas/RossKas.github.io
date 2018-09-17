@@ -249,7 +249,7 @@ $(function() {
 		offset: '90%'
 	});
 	$(".s-news").waypoint(function() {
-		$('.new-content').addClass('animated bounceInRight');
+		$('.new-content').addClass('animated fadeInUp');
 	}, {
 		offset: '90%'
 	});

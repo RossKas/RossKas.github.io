@@ -1,0 +1,434 @@
+@font-face {
+    font-family: 'Proximanova';
+    src: url('../fonts/proximanova-regular-webfont.woff') format('woff');
+}
+html,body {
+    height: 100%;
+    color: #333;
+    font-size: 100%;
+    width: 100%;
+    font-family: 'Proximanova', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+input, button {outline:none;}
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: gray;
+}
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #fff;
+}
+input::-webkit-input-placeholder {
+    color: #b5b5b5 !important;
+}
+
+input:-moz-placeholder {
+    color: #b5b5b5 !important;  
+}
+
+input::-moz-placeholder {
+    color: #b5b5b5 !important;  
+}
+
+input:-ms-input-placeholder {  
+    color: #b5b5b5 !important;  
+}
+
+.home {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.block-left {
+    background-image: url(../img/home-bg.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 65%;
+    position: relative;
+}
+.block-left:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 440px;
+    left: 0;
+    right: 0;
+    background: #333;
+    background: linear-gradient(180deg,rgba(51,51,51,0) 0,#333 100%);
+}
+.block-left h2 {
+    color: #fff;
+    font-size: 26px;
+    line-height: 1.4;
+    max-width: 600px;
+}
+.block-right {
+    width: 35%;
+}
+.title-h {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.block-right {
+    padding: 55px 45px 10px;
+    display: inline-block;
+}
+.s-signup, .s-login {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+footer .nav a {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 30px 15px 0;
+    opacity: .6;
+    color: #fff;
+    font-weight: 400;
+}
+.block-left {
+    padding: 0 50px 30px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.s-vis {
+    display: inline-block!important;
+}
+.s-hide, .btn-signup-left {
+    display: none!important;
+}
+.form-title h3 {
+    color: #444;
+    font-size: 24px;
+}
+.form-title button {
+    color: #ff7a5b;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.form-title {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: end;
+    margin-bottom: 30px;
+}
+.form-buttons {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    border: none;
+    transition: all .1s ease-in;
+}
+.form-buttons button {
+    margin: 0;
+    display: block;
+    border: none;
+    margin-bottom: 20px!important;
+    position: relative;
+    text-align: left;
+    height: 52px;
+    padding-left: 65px!important;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    transition: all .1s ease-in;
+    opacity: 1;
+}
+.form-buttons button:hover {
+    opacity: 0.9;
+}
+.in {
+    background: #0077b5;
+}
+.fb {
+    background: #3b5998;
+}
+.form-buttons button:before {
+    content: '';
+    position: absolute;
+    background: rgba(0,0,0,.15);
+    height: 52px;
+    width: 52px;
+    top: 0;
+    left: 0;
+    border-radius: 4px 0 0 4px;
+}
+.form-buttons button img {
+    position: absolute;
+    left: 16px;
+    top: 14px;
+    max-height: 22px;
+}
+.frm button, .btn-signup-left {
+    color: #fff;
+    text-transform: uppercase;
+    background: #ff8234;
+    border: 1px solid #ff8234;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    display: block;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+    font-weight: 700;
+    transition: all .1s ease-in;
+    opacity: 1;
+}
+.frm {
+    color: #777;
+    margin-top: 20px;
+}
+.frm button:hover {
+    opacity: 0.9;
+}
+.frm p {
+    font-size: 16px;
+}
+.frm .text-btn-top {
+    font-size: 14px;
+    margin-top: 40px;
+}
+.normal-link, .normal-link:hover {
+    color: #ff7a5b;
+    text-decoration: none;
+}
+.intl-tel-input {
+    width: 100%;
+}
+.toggle-password {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 18px;
+}
+.pass0 {
+    position: relative;
+}
+.icon-eye-off {
+    display: inline-block;
+    background-image: url(../img/pass-hid.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+    z-index: 3;
+    cursor: pointer;
+}
+.pass-vis {
+    background-image: url(../img/pass-vis.png);
+}
+.form-title span {
+    position: absolute;
+    top: -13px;
+    left: 0;
+    font-size: 34px;
+    cursor: pointer;
+}
+.s-login .form-title h3 {
+    padding-left: 48px;
+}
+.open-forgot {
+    color: #ff7a5b;
+    font-size: 16px !important;
+    text-align: right;
+    cursor: pointer;
+}
+.modal-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #555;
+    text-align: center;
+    width: 100%;
+}
+.modal-body {
+    font-size: 15px;
+}
+.mob-login {
+    display: none;
+    color: #ff7a5b;
+    margin-top: 20px;
+}
+.form-title-mob, .p-mob {
+    display: none;
+}
+.form-title-mob h3 {
+    font-weight: 700;
+}
+.close-signup {
+    color: #555!important;
+    font-size: 27px!important;
+    position: relative;
+    top: -10px;
+}
+.nmu-login-btn {
+    display: none;
+}
+.top-mnu {
+    display: none;
+}
+
+
+
+@media (max-width : 1200px) {
+    .block-right {
+        padding: 55px 20px 10px;
+    }
+    .s-login .form-title h3 {
+        padding-left: 42px;
+    }
+    .form-title h3 {
+        font-size: 22px;
+    }
+    .form-title button {
+        font-size: 15px;
+    }
+}
+@media (max-width : 991px) {
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .block-left, .block-right {
+        width: 100%;
+    }
+    .block-left:before {
+        display: none;
+    }
+    .block-right {
+        padding: 55px 45px 10px;
+    }
+    .mob-login {
+        display: block;
+    }
+    .form-title {
+        display: none;
+    }
+    .form-title-mob {
+        display: flex!important;
+        margin-bottom: 10px;
+    }
+    .block-left h2 {
+        margin-bottom: 35px;
+    }
+    .p-mob {
+        display: block;
+        color: #555;
+        font-size: 16px;
+    }
+    .s-login .form-title h3 {
+        padding-left: 0;
+    }
+    .btn-signup-left {
+        display: block!important;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    footer {
+        display: none;
+    }
+    .block-right {
+        display: none;
+    }
+    .nmu-login-btn {
+        display: block;
+        text-transform: uppercase;
+        border: none;
+        background: none;
+        color: #fff;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .nav-gamb {
+        font-size: 30px;
+        color: #fff;
+    }
+    .navbar {
+        padding: .5rem 0rem;
+    }
+    .top-mnu {
+        display: flex;
+        background: #333;
+    }
+    .block-left {
+        padding: 0 20px 30px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(255,255,255,.8);
+        text-transform: uppercase;
+        padding: 15px 10px;
+    }
+    .nav-item {
+       border-bottom: 1px solid rgba(255,255,255,.1); 
+   }
+
+}
+@media (max-width : 480px) {
+    .block-right {
+        padding: 30px 20px 10px;
+    }
+    .title-h {
+        font-size: 32px;
+    }
+    .block-left h2 {
+        font-size: 20px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 10px 10px;
+    }
+}
+@media (max-width : 320px) {
+    .dont-know-content h1 {
+        font-size: 20px;
+    }
+    .dont-know-content p {
+        font-size: 10px;
+    }
+    .s-names h2 {
+        font-size: 18px;
+    }
+}

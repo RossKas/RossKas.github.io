@@ -21,7 +21,7 @@
         var formData = new FormData();
         formData.append("file", file);
         $('.preload').addClass("preload-vis");
-        post("http://10.10.10.32:8080/upload", formData)
+        post("http://10.10.32:8080/upload", formData)
             .then(function (rez) {
                 $('.preload').removeClass("preload-vis");
                 $('.block-content').addClass("block-report");
@@ -233,7 +233,7 @@
     function sendNNWhite_f(hash, f_size, value, size, diffss, entr, impsec) {
         var r = confirm("Send '" + hash + ":" + size + "' to NN white?");
         if (r == true) {
-            $.get('http://bind.antivirus-lab.com/criteria/fp.php?md5=' + hash + '&size=' + f_size + '&sz=' + size + '&val=' + value + '&difss=' + diffss + '&entr=' + entr + '&impsec=' + impsec);
+            $.get('http://bind.com/criteria/fp.php?md5=' + hash + '&size=' + f_size + '&sz=' + size + '&val=' + value + '&difss=' + diffss + '&entr=' + entr + '&impsec=' + impsec);
             showNotification('White successfully sent', 'success');
         }
     }
@@ -241,7 +241,7 @@
     function sendNNWhite_m(hash, f_size, value, size, diffss, entr, impsec) {
         var r = confirm("Send '" + hash + ":" + size + "' to NN white?");
         if (r == true) {
-            $.get('http://bind.antivirus-lab.com/criteria/inf.php?md5=' + hash + '&size=' + f_size + '&sz=' + size + '&val=' + value + '&difss=' + diffss + '&entr=' + entr + '&impsec=' + impsec);
+            $.get('http://bind.com/criteria/inf.php?md5=' + hash + '&size=' + f_size + '&sz=' + size + '&val=' + value + '&difss=' + diffss + '&entr=' + entr + '&impsec=' + impsec);
             showNotification('White successfully sent', 'success');
         }
     }

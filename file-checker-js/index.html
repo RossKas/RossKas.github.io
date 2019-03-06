@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>GRIDINSOFT FILE CHECKER</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./css/styles.css?v2">
+</head>
+
+<body>
+    <header class="main-head">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="img/gridinsoft-logo.png" alt="gridinsoft-logo">
+                    <h1>Gridinsoft File Checker</h1>
+                    <p>Analyze suspicious files to detect malware automatically</p>
+                    <nav class="navbar navbar-light">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://gridinsoft.com/">Company</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://gridinsoft.com/comparison/">Software</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://blog.gridinsoft.com/">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+        
+    </header>
+    <div class="block-content">
+        <div id="content-home" class="content-home">
+            <form id="upload-container" method="post" enctype="multipart/form-data" class="uploadForm">
+                <img id="upload-image" src="img/ScanFile.png" alt="ScanFile">
+                <input class="uploadForm__input" type="file" name="file" id="inputFile">
+                <label class="uploadForm__label" for="inputFile">
+                    Choose file
+                </label>
+            </form>
+            <p class="by-submitting">By submitting your file to Gridinsoft File Checker you are asking Gridinsoft to
+                analyze your submission, to investigate it by Gridinsoft Analyst Team and agree to share it with the
+                security community</p>
+
+            <div class="block-how-resalt">
+                <h2>The easiest way to get result:</h2>
+                <div class="next-bl">
+                    <div class="drag-choose">
+                        <div class="drag">
+                            <span>Drag&Drop file to the area above</span>
+                            <img autoplay="autoplay" src="img/DragFile.png" alt="DragFile">
+                        </div>
+                        <img class="or" src="img/or-symbol.png" alt="or">
+                        <div class="choose">
+                            <span>Press a Choose File button</span>
+                            <img src="img/ChooseFile.png" alt="ChooseFile">
+                        </div>
+                    </div>
+                    <img src="img/errow-right.png" alt="errow-right">
+                    <div class="got-result">
+                        <img src="img/got-result.png" alt="got-result">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="notification" id="result">
+
+        </div>
+        <div class="notification" id="alert"></div>
+    </div>
+
+    <footer>
+        <ul class="menu-foot">
+            <li class="menu-item"><a href="https://gridinsoft.com/terms-of-use.html"  target="_blank">Terms of use</a></li>
+            <li class="menu-item"><a href="https://gridinsoft.com/privacy-policy.html" target="_blank">Privacy Policy</a></li>
+        </ul>
+        <div class="cop">
+            <p>Copyright © <script>document.write((new Date).getFullYear());</script>, GridinSoft LLC</p>
+        </div>
+    </footer>
+
+
+    <div class="preload">
+        <img src="./img/SPINNER.png" alt="SPINNER">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>

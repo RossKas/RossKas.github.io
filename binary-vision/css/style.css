@@ -22,7 +22,8 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.wow {visibility: hidden; }
+	
 * {
     box-sizing: border-box;
 }

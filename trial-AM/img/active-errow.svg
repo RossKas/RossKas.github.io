@@ -1,0 +1,19 @@
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="3.93502884 3.93502884 22.9350288 3.93502884 22.9350288 22.9350288 15.7149858 15.7149858 8.49494275 22.9350288 3.93502884 17.8092243 10.8721266 10.8721266"></polygon>
+        <filter x="-36.8%" y="-26.3%" width="173.7%" height="173.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PointArrow/Active">
+            <g id="Rectangle" transform="translate(13.435029, 13.435029) rotate(45.000000) translate(-13.435029, -13.435029) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <path stroke="#7FB1D3" stroke-width="1" d="M5.14213562,4.43502884 L11.5792333,10.8721266 L4.62208209,17.8292778 L8.51620211,22.2066627 L15.7149858,15.007879 L22.4350288,21.7279221 L22.4350288,4.43502884 L5.14213562,4.43502884 Z" stroke-linejoin="square" fill="#7FB1D3" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="33px" height="62px" viewBox="0 0 33 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="table/Buy/Column" transform="translate(-43.000000, -103.000000)">
+            <g id="TablePriceRight" transform="translate(59.500000, 134.000000) scale(-1, 1) translate(-59.500000, -134.000000) translate(43.000000, 103.000000)">
+                <rect id="Rectangle" stroke="none" stroke-width="1" fill="none" x="0.5" y="0.5" width="32" height="61"></rect>
+                <path d="M-9.82674934,12.7077146 L20.2351124,17.4886833 C20.6618417,17.5565494 20.9967167,17.8908209 21.0653522,18.3174272 L25.9133675,48.4504125 C25.9488495,48.670952 25.7988308,48.8784986 25.5782912,48.9139806 C25.4501573,48.9345957 25.3199137,48.8924705 25.2281215,48.8007237 L20.3407559,18.2151938 L-10.176979,13.3947482 L-10.176979,13.3947482 C-10.3353214,13.2364842 -10.3353849,12.9798241 -10.177121,12.8214818 C-10.0853016,12.7296169 -9.95502167,12.6873144 -9.82674934,12.7077146 Z" id="Rectangle" stroke="#93B6D6" stroke-width="2" fill="#D8D8D8" transform="translate(7.811393, 30.810900) rotate(45.000000) translate(-7.811393, -30.810900) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

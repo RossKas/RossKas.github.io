@@ -1,0 +1,41 @@
+<svg width="151px" height="85px" viewBox="0 0 151 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AM_creative/block3/Functions/Advanced-Mode" transform="translate(-817.000000, -117.000000)">
+            <g id="Pict" transform="translate(813.000000, 110.000000)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="197" height="121"></rect>
+                    <g id="pict/Active_Advanced-Mode" opacity="0.745535714" transform="translate(63.000000, 0.000000)" stroke="#FFFFFF">
+                        <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(11.245312, 29.000000)">
+                            <path d="M40,17 L40,41.0001211 C40,41.5506349 39.2744605,42 38.3748532,42 C28.5199647,42 21.1287983,42 16.2013541,42 C14.876014,42 13.4117845,42 11.8086655,42 C7.77820678,42 -0.242764297,42 -12.2542477,42 C-13.1569359,42 -13.8793946,41.552293 -13.8793946,40.998463 L-14,35.663613" id="Path" stroke-width="3.5" transform="translate(13.000000, 29.500000) rotate(90.000000) translate(-13.000000, -29.500000) "></path>
+                            <rect id="Rectangle-Copy" stroke-width="3" x="17.2546883" y="24.5" width="45" height="8" rx="0.5"></rect>
+                            <path d="M8.58577129,37.1036862 L8.58577129,21.2012572" id="Path-Copy" stroke-width="3.5" transform="translate(9.000000, 29.500000) rotate(90.000000) translate(-9.000000, -29.500000) "></path>
+                            <rect id="Rectangle-Copy-4" stroke-width="3" x="25.2546883" y="52.5" width="37" height="8" rx="0.5"></rect>
+                            <rect id="Rectangle-Copy-3" stroke-width="3" x="7.25468827" y="-1.5" width="22" height="8" rx="0.5"></rect>
+                        </g>
+                        <path d="M76.5,30.5800561 L69.3310481,33.3672157 L69.7664665,25.6878576 L64.9003922,19.731059 L72.3384475,17.7721143 L76.5,11.3034506 L80.6615525,17.7721143 L88.0996078,19.731059 L83.2335335,25.6878576 L83.6689519,33.3672157 L76.5,30.5800561 Z" id="Star" stroke-width="4"></path>
+                    </g>
+                    <g id="Group" transform="translate(4.000000, 9.000000)" opacity="0.574614025">
+                        <g id="Rectangle_not_selected" transform="translate(0.000000, 14.000000)" stroke="#FFFFFF">
+                            <rect x="0.5" y="0.5" width="25" height="8"></rect>
+                        </g>
+                        <g id="Rectangle_selected" transform="translate(0.000000, 29.000000)" fill="#FFFFFF">
+                            <rect x="0" y="0" width="26" height="9"></rect>
+                        </g>
+                        <g id="Rectangle_not_selected" transform="translate(0.000000, 44.000000)" stroke="#FFFFFF">
+                            <rect x="0.5" y="0.5" width="25" height="8"></rect>
+                        </g>
+                        <g id="Rectangle_not_selected" transform="translate(0.000000, 74.000000)" stroke="#FFFFFF">
+                            <rect x="0.5" y="0.5" width="25" height="8"></rect>
+                        </g>
+                        <g id="Rectangle_not_selected" transform="translate(0.000000, 60.000000)" stroke="#FFFFFF">
+                            <rect x="0.5" y="0.5" width="25" height="8"></rect>
+                        </g>
+                        <g id="Rectangle_not_selected" stroke="#FFFFFF">
+                            <rect x="0.5" y="0.5" width="25" height="8"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

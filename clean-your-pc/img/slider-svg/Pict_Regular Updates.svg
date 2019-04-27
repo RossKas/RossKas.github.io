@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="145px" height="83px" viewBox="0 0 145 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AM_creative/block3/Functions/Regular-Updates" transform="translate(-817.000000, -119.000000)">
+            <g id="Pict" transform="translate(813.000000, 110.000000)">
+                <g>
+                    <rect id="Rectangle" x="0" y="0" width="197" height="121"></rect>
+                    <g id="pict/Hourly_Updates" opacity="0.745535714" transform="translate(63.000000, 0.000000)">
+                        <g id="default" transform="translate(18.000000, 15.000000)">
+                            <path d="M33.4255734,56.9896985 C33.2395233,57.0238498 33.0482323,56.9721576 32.9029193,56.8484629 L12.2617619,39.3371277 C11.9664122,39.0723781 11.9140011,38.6222084 12.1403,38.2938672 C12.2436896,38.1375217 12.4068586,38.033193 12.58951,38.0066467 C12.7721614,37.9801004 12.9572672,38.0338113 13.0991127,38.1545147 L33.7384297,55.6620836 C34.0328828,55.9125414 34.0880927,56.3833269 33.8562109,56.7109935 C33.7555952,56.8598666 33.6001436,56.9604735 33.4255734,56.9896985 L33.4255734,56.9896985 Z" id="Path" stroke="#FFFFFF" stroke-width="2.5"></path>
+                            <path d="M33.5741162,56.9896708 C33.760732,57.0238743 33.9525955,56.972207 34.0985858,56.8484353 L54.7387662,39.3371258 C55.0343145,39.0722902 55.0859986,38.6215152 54.8583821,38.2938668 C54.7549974,38.1375215 54.5918361,38.033193 54.4091934,38.0066467 C54.2265506,37.9801004 54.0414536,38.0338113 53.8996148,38.1545145 L33.2612747,55.6620578 C32.9647218,55.9289215 32.9138226,56.3822287 33.143499,56.7109662 C33.2444079,56.859521 33.3997074,56.9600341 33.5741162,56.9896708 L33.5741162,56.9896708 Z" id="Path" stroke="#FFFFFF" stroke-width="2.5"></path>
+                            <path d="M33.5644699,56 C33.8403755,55.7326313 33.9970291,55.3684828 34,54.9875897 L34,0 L32,0 L32,55.0232777" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <path d="M33.782235,56 C33.9206116,55.7262781 33.9988101,55.3566554 34,54.9706849 L34,0 L33,0 L33,55.0063728" id="Path" stroke="#FFFFFF" stroke-width="2.5"></path>
+                            <path d="M66,60 L66,70.8604724 C66,71.487874 65.1112445,72 64.0092632,72 L1.99073677,72 C0.884981559,72 0,71.4897638 0,70.8585827 L0,60" id="Path" stroke="#FFFFFF" stroke-width="3.5"></path>
+                        </g>
+                    </g>
+                    <g id="Group" transform="translate(4.000000, 9.000000)" opacity="0.574614025">
+                        <g id="Rectangle_selected" transform="translate(0.000000, 14.000000)" fill="#FFFFFF">
+                            <rect x="0" y="0" width="26" height="9"></rect>
+                        </g>
+                        <g id="Rectangle_not_selected" transform="translate(0.000000, 29.000000)" stroke="#FFFFFF">
+                            <rect x="0.5" y="0.5" width="25" height="8"></rect>
+                        </g>
+                        <g id="Rectangle_not_selected" transform="translate(0.000000, 44.000000)" stroke="#FFFFFF">
+                            <rect x="0.5" y="0.5" width="25" height="8"></rect>
+                        </g>
+                        <g id="Rectangle_not_selected" transform="translate(0.000000, 74.000000)" stroke="#FFFFFF">
+                            <rect x="0.5" y="0.5" width="25" height="8"></rect>
+                        </g>
+                        <g id="Rectangle_not_selected" transform="translate(0.000000, 60.000000)" stroke="#FFFFFF">
+                            <rect x="0.5" y="0.5" width="25" height="8"></rect>
+                        </g>
+                        <g id="Rectangle_not_selected" stroke="#FFFFFF">
+                            <rect x="0.5" y="0.5" width="25" height="8"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

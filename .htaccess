@@ -10,8 +10,10 @@ RewriteRule ^index\.html$ https://rosskas.github.io/ [R=301,L]
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTPS/
 RewriteRule ^index\.php$ https://rosskas.github.io/ [R=301,L]
 
+www/ без www
 RewriteCond %{HTTP_HOST} ^www\.(.*)$
 RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+www/ без www
 
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.(php|html|htm)\ HTTPS/ 
 

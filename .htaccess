@@ -1,6 +1,8 @@
 RewriteEngine On
 
-
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.site.ru$ [NC]
+RewriteRule ^(.*)$ http://site.ru/$1 [R=301,L]
 
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTPS/
 RewriteRule ^index\.html$ https://rosskas.github.io/ [R=301,L]

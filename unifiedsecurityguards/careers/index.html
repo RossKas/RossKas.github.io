@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Careers Page - Unified Protective Services</title>
+	<meta name="description" content="Unified Protective Services is a leading national security service company in the USA. With our vast experience and technology, we consistently exceed expectations.">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="icon" href="../favicon.ico">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<!-- <link rel="canonical" href="http://unifiedsecurityguards.com/careers/"> -->
+	<link rel="stylesheet" href="../css/libs.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<link rel="stylesheet" href="../css/style.css">
+	<!-- <script src="https://www.google.com/recaptcha/api.js?render=6LdMuqMUAAAAAMs4ikSiS2AKcrZpEB7sj5TLt3GO"></script> -->
+</head>
+
+<body class="join-our-team">
+	
+	<section class="s-about">
+		<div class="mnu-line">
+			<div class="container">
+				<nav>
+					<ul>
+						<li><a href="../#ABOUT">ABOUT</a></li>
+						<li><a href="../#SERVICES">SERVICES</a></li>
+						<li><a href="../#REASONS">TOP 3 REASONS</a></li>
+						<li><a href="../#HIRE-US">HIRE US</a></li>
+						<li><a href="../#FEEDBACK">CLIENT FEEDBACK</a></li>
+						<li><a href="../#LOCATIONS">LOCATIONS</a></li>
+						<li><a href="../#CAREERS">CAREERS</a></li>
+						<li><a href="../#CONTACT">CONTACT</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div id="top-mnu-fixed"></div>
+
+	</section>
+
+	<section class="s-online-application s-contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="block-title">
+						<h2 class="title-section">Online Application</h2>
+					</div>
+					<form id="onlineApplication" class="form-def" method="post" action="./verify_captcha.php">
+						<input type="hidden" name="token" id="token">
+						<input type="hidden" name="action" id="action">
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Full Name <span>*</span></p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont input-row-1">
+										<input type="text" name="full-name" placeholder="FIRST NAME" required>
+										<input type="text" name="middle-name" placeholder="Middle Name" required>
+										<input type="text" name="last-name" placeholder="Last Name" required>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Current Address <span>*</span></p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="email" name="street-address" placeholder="Street Address" required>
+										<input type="email" name="middle-name" placeholder="Street Address Line 2"
+											required>
+									</div>
+									<div class="input-cont input-row-2">
+										<input type="text" name="city" placeholder="City" required>
+										<input type="text" name="state-province" placeholder="State / Province"
+											required>
+									</div>
+									<div class="input-lit">
+										<input type="text" name="zip" placeholder="Postal / Zip Code" required>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Email Address <span>*</span></p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="email" name="street-address" placeholder="ex: myname@example.com"
+											required>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Phone Number <span>*</span></p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont phone-wrap">
+										<input type="text" name="street-address" placeholder="Area Code" required>
+										<p>—</p>
+										<input type="text" name="street-address" placeholder="Phone Number" required>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>At this address since (date): <span>*</span></p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="street-address" required>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Work interest preference <span>*</span></p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-work-interest">
+										<div class="input-preference">
+											<input type="radio" id="Full-time" name="all-time" value="Full-time"
+												required>
+											<label for="Full-time">Full-time</label>
+										</div>
+										<div class="input-preference">
+											<input type="radio" id="Part-time" name="all-time" value="Part-time"
+												required>
+											<label for="Part-time">Part-time</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>State any hours or days you CANNOT work</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<textarea name="cannot-work" rows="2" required></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<h3 class="title-block-form">Transportation:</h3>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>Valid Driver's License? <span>*</span></p>
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="driverLicenseYes" name="driverLicense"
+												value="driverLicenseYes" required>
+											<label for="driverLicenseYes">yes</label>
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="driverLicenseNo" name="driverLicense"
+												value="driverLicenseNo" required>
+											<label for="driverLicenseNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>Use public transportation only? <span>*</span></p>
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="publicTransportationYes" name="publicTransportation"
+												value="publicTransportationYes" required>
+											<label for="publicTransportationYes">yes</label>
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="publicTransportationNo" name="publicTransportation"
+												value="publicTransportationNo" required>
+											<label for="publicTransportationNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>Own a dependable automobile? <span>*</span></p>
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="automobileYes" name="automobile"
+												value="automobileYes" required>
+											<label for="automobileYes">yes</label>
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="automobileNo" name="automobile" value="automobileNo"
+												required>
+											<label for="automobileNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<h3 class="title-block-form">Personal Information:</h3>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Date of birth: <span>*</span></p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="birthday" id="birthday"
+											placeholder="Month - Day - Year" required>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Social security number: </p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="Social-security-number">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>Wear glasses? <span>*</span></p>
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="WearGlassesYes" name="WearGlasses"
+												value="WearGlassesYes" required>
+											<label for="WearGlassesYes">yes</label>
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="WearGlassesNo" name="WearGlasses"
+												value="WearGlassesNo" required>
+											<label for="WearGlassesNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>Wear contact lenses? <span>*</span></p>
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="ContactLensesYes" name="ContactLenses"
+												value="ContactLensesYes" required>
+											<label for="ContactLensesYes">yes</label>
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="ContactLensesNo" name="ContactLenses"
+												value="ContactLensesNo" required>
+											<label for="ContactLensesNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Height: <span>*</span></p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-lit">
+										<input type="text" name="personal-height" required>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<label>Weight: <span>*</span></label>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-lit">
+										<input type="text" name="personal-weight" required>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<h3 class="title-block-form">Military Service</h3>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>Military Service? (If "YES", complete below:)</p>
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="MilitaryServiceYes" name="MilitaryService"
+												value="MilitaryServiceYes">
+											<label for="MilitaryServiceYes">yes</label>
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="MilitaryServiceNo" name="MilitaryService"
+												value="MilitaryServiceNo">
+											<label for="MilitaryServiceNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Branch of service:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="BranchService">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Type of discharge:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="TypeDischarge">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Date of service: </p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="date-service"
+											placeholder="Month-Day-Year — Month-Day-Year">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Primary Specialty:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="PrimarySpecialty">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Highest Rank:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="HighestRank">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<h3 class="title-block-form">Training, Qualification, and Education:</h3>
+						<p style="font-weight: bold">( Check all that apply)</p>
+
+						<div class="input-wrap Qualification">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="checkbox" id="CPR" name="CPR" value="CPR">
+											<label for="CPR">CPR</label>
+										</div>
+										<div class="input-radio">
+											<input type="checkbox" id="EMT" name="EMT" value="EMT">
+											<label for="EMT">EMT</label>
+										</div>
+										<div class="input-radio">
+											<input type="checkbox" id="Locksmith" name="Locksmith" value="Locksmith">
+											<label for="Locksmith">Locksmith</label>
+										</div>
+										<div class="input-radio">
+											<input type="checkbox" id="FirstAid" name="FirstAid" value="FirstAid">
+											<label for="FirstAid">First Aid</label>
+										</div>
+										<div class="input-radio">
+											<input type="checkbox" id="SchoolGraduate" name="SchoolGraduate"
+												value="SchoolGraduate">
+											<label for="SchoolGraduate">High School Graduate</label>
+										</div>
+										<div class="input-radio">
+											<input type="checkbox" id="NotSchoolGraduate" name="NotSchoolGraduate"
+												value="NotSchoolGraduate">
+											<label for="NotSchoolGraduate">Not a High School Graduate</label>
+										</div>
+										<div class="input-radio">
+											<input type="checkbox" name="Other" value="Other">
+											<input type="text" id="OtherText" name="OtherText" placeholder="Other">
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="checkbox" id="WordProcessing" name="WordProcessing"
+												value="WordProcessing">
+											<label for="WordProcessing">Word Processing</label>
+										</div>
+										<div class="input-radio">
+											<input type="checkbox" id="FireFighter" name="FireFighter"
+												value="FireFighter">
+											<label for="FireFighter">Fire Fighter</label>
+										</div>
+										<div class="input-radio">
+											<input type="checkbox" id="ComputerOperator" name="ComputerOperator"
+												value="ComputerOperator">
+											<label for="ComputerOperator">Computer Operator</label>
+										</div>
+										<div class="input-radio">
+											<input type="checkbox" id="PBX-Switchboard" name="PBX-Switchboard"
+												value="PBX-Switchboard">
+											<label for="PBX-Switchboard">PBX/Switchboard</label>
+										</div>
+										<div class="input-radio">
+											<input type="checkbox" id="CollegeGraduate" name="CollegeGraduate"
+												value="CollegeGraduate">
+											<label for="CollegeGraduate">College Graduate</label>
+										</div>
+										<div class="input-radio">
+											<input type="checkbox" id="Trade-Vocational-School"
+												name="Trade-Vocational-School" value="Trade-Vocational-School">
+											<label for="Trade-Vocational-School">Trade/Vocational School</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<h3 class="title-block-form">Current / Past Employment Information:</h3>
+						<p class="p-italic">Present Employer (If employed):</p>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Name:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="PresentEmployerName">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Address:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="PresentEmployerAddress">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Date Started</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="PresentEmployerDateStarted"
+											placeholder="Month - Day - Year">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Job Title:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="PresentEmployerJobTitle">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Supervisor:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="PresentEmployerSupervisor">
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="p-italic">Previous Employer:</p>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Name:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="PreviousEmployerName">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Address:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="PreviousEmployerAddress">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Date Started</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="PreviousEmployerDateStarted"
+											placeholder="Month - Day - Year">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Job Title:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="PreviousEmployerJobTitle">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Supervisor:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="PreviousEmployerSupervisor">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<h3 class="title-block-form">10 Year Residence History:</h3>
+
+						<p class="p-italic">Address #1:</p>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">Street (Address 1)</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="Street(Address1)">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">City (Address 1)</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="City(Address1)">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">Form-To</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" class="address" name="Address1"
+											placeholder="Month-Day-Year — Month-Day-Year">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<p class="p-italic">Address #2:</p>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">Street (Address 2)</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="Street(Address2)">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">City (Address 2)</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="City(Address2)">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">Form-To</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" class="address" name="Address2"
+											placeholder="Month-Day-Year — Month-Day-Year">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<p class="p-italic">Address #3:</p>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">Street (Address 3)</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="Street(Address3)">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">City (Address 3)</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="City(Address3)">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">Form-To</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" class="address" name="Address3"
+											placeholder="Month-Day-Year — Month-Day-Year">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>1-Have you ever been discharged for Dishonesty?</p>
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="DishonestyYes" name="Dishonesty"
+												value="DishonestyYes" required>
+											<label for="DishonestyYes">yes</label>
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="DishonestyNo" name="Dishonesty" value="DishonestyNo"
+												required>
+											<label for="DishonestyNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>2-Have you ever been discharged for Insobriety?</p>
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="InsobrietyYes" name="Insobriety"
+												value="InsobrietyYes" required>
+											<label for="InsobrietyYes">yes</label>
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="InsobrietyNo" name="Insobriety" value="InsobrietyNo"
+												required>
+											<label for="InsobrietyNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">Explain all “YES” Responses</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<textarea name="InsobrietyYesExplain" rows="6"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>3-Have you ever been arrested or convicted of a crime?</p>
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="CrimeYes" name="crime" value="CrimeYes" required>
+											<label for="CrimeYes">yes</label>
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="CrimeNo" name="crime" value="CrimeNo" required>
+											<label for="CrimeNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">Explain all “YES” Responses</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<textarea name="CrimeYesExplain" rows="6"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>Have you ever used or tried marijuana, cocaine, or any other illegal drug?</p>
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="drugYes" name="drug" value="drugYes" required>
+											<label for="drugYes">yes</label>
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="drugNo" name="drug" value="drugNo" required>
+											<label for="drugNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">How many times?</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-lit">
+										<input type="text" name="drugTimes">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">Last time use or tried:</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-lit">
+										<input type="text" name="drugLastTime">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p class="text-right">Explain “YES” Responses</p>
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<textarea name="drugYesExplain" rows="6"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<hr>
+
+						<h3 class="title-block-form">Abilities Questionnaire:</h3>
+						<p>Answers to the following questions provide a guide for determining the type of assignments you are best suited for. Check either “Yes” or “ No” for each question. Answer every question.</p>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>1-Can you stand for an eight hour period? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="StandEightHourYes" name="StandEightHour" value="StandEightHourYes" required> 
+											<label for="StandEightHourYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="StandEightHourNo" name="StandEightHour" value="StandEightHourNo" required> 
+											<label for="StandEightHourNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>2-Can you run 100 yards without stopping? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="run100yardsYes" name="run100yards" value="run100yardsYes" required> 
+											<label for="run100yardsYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="run100yardsNo" name="run100yards" value="run100yardsNo" required> 
+											<label for="run100yardsNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>3-Can you distinguish colors? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="distinguishСolorsYes" name="distinguishСolors" value="distinguishСolorsYes" required> 
+											<label for="distinguishСolorsYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="distinguishСolorsNo" name="distinguishСolors" value="distinguishСolorsNo" required> 
+											<label for="distinguishСolorsNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>4-Can you drive a Vehicle? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="driveVehicleYes" name="driveVehicle" value="driveVehicleYes" required> 
+											<label for="driveVehicleYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="driveVehicleNo" name="driveVehicle" value="driveVehicleNo" required> 
+											<label for="driveVehicleNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>5-Can you monitor CCTV?  <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="monitorCCTVYes" name="monitorCCTV" value="monitorCCTVYes" required> 
+											<label for="monitorCCTVYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="monitorCCTVNo" name="monitorCCTV" value="monitorCCTVNo" required> 
+											<label for="monitorCCTVNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>6-Can you hear normal conversation on a standard telephone? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="hearЕelephoneYes" name="hearЕelephone" value="hearЕelephoneYes" required> 
+											<label for="hearЕelephoneYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="hearЕelephoneNo" name="hearЕelephone" value="hearЕelephoneNo" required> 
+											<label for="hearЕelephoneNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>7-Can you walk 50 minutes out of each Hour for an 8-hour period? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="walk50minutesYes" name="walk50minutes" value="walk50minutesYes" required> 
+											<label for="walk50minutesYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="walk50minutesNo" name="walk50minutes" value="walk50minutesYes" required> 
+											<label for="walk50minutesYes">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>8-Can you sit for extended period of time? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="sitExtendedPeriodYes" name="sitExtendedPeriod" value="sitExtendedPeriodYes" required> 
+											<label for="sitExtendedPeriodYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="sitExtendedPeriodNo" name="sitExtendedPeriod" value="sitExtendedPeriodNo" required> 
+											<label for="sitExtendedPeriodNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>9-Can you smell smoke, chemical and gas odors? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="smellYes" name="smell" value="smellYes" required> 
+											<label for="smellYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="smellNo" name="smell" value="smellNo" required> 
+											<label for="smellNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>10-Can you bend and squat? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="bend-squatYes" name="bend-squat" value="bend-squatYes" required> 
+											<label for="bend-squatYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="bend-squatNo" name="bend-squat" value="bend-squatNo" required> 
+											<label for="bend-squatNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>11-Can you stay calm in Emergencies? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="calmInEmergenciesYes" name="calmInEmergencies" value="calmInEmergenciesYes" required> 
+											<label for="calmInEmergenciesYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="calmInEmergenciesNo" name="calmInEmergencies" value="calmInEmergenciesNo" required> 
+											<label for="calmInEmergenciesNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>12-Can you hear Telephone rings? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="hearTelephoneRingsYes" name="hearTelephoneRings" value="hearTelephoneRingsYes" required> 
+											<label for="hearTelephoneRingsYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="hearTelephoneRingsNo" name="hearTelephoneRings" value="hearTelephoneRingsNo" required> 
+											<label for="hearTelephoneRingsNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>13-Can you dial a telephone? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="dialTelephoneYes" name="dialTelephone" value="dialTelephoneYes" required> 
+											<label for="">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="dialTelephoneNo" name="dialTelephone" value="dialTelephoneNo" required> 
+											<label for="dialTelephoneNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>14-Can you ride a bicycle? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="rideBicycleYes" name="rideBicycle" value="rideBicycleYes" required> 
+											<label for="rideBicycleYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="rideBicycleNo" name="rideBicycle" value="rideBicycleNo" required> 
+											<label for="rideBicycleNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>15-Can you read signs for directions Such as left, right, up and down?  <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="readSignsYes" name="readSigns" value="readSignsYes" required> 
+											<label for="readSignsYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="readSignsNo" name="readSigns" value="readSignsNo" required> 
+											<label for="readSignsNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>16-Can you work regular schedule Without incurring unexpected absences? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="regularScheduleYes" name="regularSchedule" value="regularScheduleYes" required> 
+											<label for="regularScheduleYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="regularScheduleNo" name="regularSchedule" value="regularScheduleNo" required> 
+											<label for="regularScheduleNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>17-Can you respond to emergencies? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="respondToEmergenciesYes" name="respondToEmergencies" value="respondToEmergenciesYes" required> 
+											<label for="respondToEmergenciesYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="respondToEmergenciesNo" name="respondToEmergencies" value="respondToEmergenciesNo" required> 
+											<label for="respondToEmergenciesNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-12">
+									<p>18-Can you maintain alertness for Extended periods to respond to an emergency? <span>*</span></p>	
+								</div>
+								<div class="col-lg-7">
+									<div class="input-radio-wrap">
+										<div class="input-radio">
+											<input type="radio" id="maintainAlertnessYes" name="maintainAlertness" value="maintainAlertnessYes" required> 
+											<label for="maintainAlertnessYes">yes</label>	
+										</div>
+										<div class="input-radio">
+											<input type="radio" id="maintainAlertnessNo" name="maintainAlertness" value="maintainAlertnessNo" required> 
+											<label for="maintainAlertnessNo">no</label>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>
+
+						<hr>
+
+						<p>Understand that any false or misleading information provided by me on this application shall be grounds for immediate dismissal any time during my employment with Unified. It is understood that my employment is subject to my satisfactorily meeting the requirements of a security background investigation, to which I hereby consent, and subject to undergoing a medical examination the results of which how that I can perform the essential functions of the job, with or without reasonable accommodation, without posing a direct threat to the health or safety of myself or others.</p>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>DATE: <span>*</span></p>	
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="DATE" required>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>SIGN YOUR NAME: <span>*</span></p>	
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="text" name="SIGN-YOUR-NAME" required>
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div class="input-wrap">
+							<div class="row">
+								<div class="col-lg-4">
+									<p>Upload Resume <span>*</span></p>	
+								</div>
+								<div class="col-lg-8">
+									<div class="input-cont-100">
+										<input type="file" name="Resume" id="Resume">
+									</div>
+								</div>
+							</div>	
+						</div>
+											
+						<div class="block-btn">
+							<button>Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="main-foot">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="foot-cont">
+						<ul>
+							<li>Unified Protective Services</li>
+							<li>Corporate Headquaters:</li>
+							<li>4431 W. Rosecrans Ave, Ste 200</li>
+							<li>Hawthorne, CA 90250</li>
+							<li>Sales: (800) 635-2010</li>
+							<li>Fax: (310) 263-2535</li>
+						</ul>
+						<ul class="middle-ul">
+							<li>24-Hour Dispatch:</li>
+							<li>877-GUARD-22</li>
+						</ul>
+						<ul>
+							<li>State ID #’s:</li>
+							<li>California# PPO16696</li>
+							<li>Nevada# 1694</li>
+							<li>Arizona# 1617268</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-lg-12">
+					<p class="copyright">&copy; UNIFIED PROTECTIVES SERVICES, DESIGN BY <a
+							href="http://traibl.com">TRAIBL</a> </p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../js/libs.js"></script>
+	<script src="../js/script.js"></script>
+	<!-- <script>
+		let captcha_action = 'add_comment';
+		grecaptcha.ready(function () {
+			grecaptcha.execute('6LdMuqMUAAAAAMs4ikSiS2AKcrZpEB7sj5TLt3GO', {action: captcha_action})
+				.then(function(token) {
+						if (token) {
+							document.getElementById('token').value = token;
+							document.getElementById('action').value = captcha_action;
+						}
+					});
+		});
+	</script> -->
+
+</body>
+
+</html>

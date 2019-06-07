@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500,700&display=swap');
+html,
+body {
+    height: 100%;
+    color: #000;
+    font-size: 100%;
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+strong {
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: gray;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+input::-webkit-input-placeholder {
+    color: #b5b5b5 !important;
+}
+
+input:-moz-placeholder {
+    color: #b5b5b5 !important;
+}
+
+input::-moz-placeholder {
+    color: #b5b5b5 !important;
+}
+
+input:-ms-input-placeholder {
+    color: #b5b5b5 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, ul {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+
+
+.navbar-brand {
+    font-size: 28.8px;
+    color: #000;
+}
+.nav-link {
+    color: #000 !important;
+    margin: 0px 24px;
+    font-size: 28.8px;
+}
+.nav-link:hover {
+    color: #2b82ac !important;
+}
+.title-home {
+    text-align: center;
+    margin: 30px 0;
+}
+h1, h5 {
+    font-weight: 300;
+}
+.card {
+    margin-top: 50px;
+    text-align: center;
+    border: none;
+}
+.card-img-top {
+    width: 64px;
+    margin: 20px auto 0;
+}
+.btn {
+    background: #59a0c8;
+    border-color: #59a0c8;
+}
+.btn:hover {
+    background: #85aac8;
+    border-color: #85aac8;
+}
+.btn:active {
+    background-color: #286090 !important;
+    border-color: #204d74 !important;
+}
+.copyright {
+    font-size: 10px;
+    margin: 55px 0 20px;
+    text-align: center;
+}
+/* biography */
+.bio-img {
+    border-radius: 50%;
+
+}
+/* form */
+form  {
+    max-width: 580px;
+    margin: 40px auto 0;
+}
+form label {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+#send-result {
+    margin-top: 30px;
+}
+
+
+
+@media (max-width : 1200px) {
+    /**/
+}
+@media (max-width : 991px) {
+    .navbar-nav {
+        margin-top: 30px;
+    }
+    .nav-link {
+        background: #FBFBFB;
+        color: #078D92 !important;
+        margin: 0;
+        padding: .5rem 0.5rem !important;
+        border-bottom: 1px solid #EEF0F7;
+    }
+    .nav-link:hover {
+        color: #2b82ac !important;
+        background: #fff;
+    }
+    .card {
+        margin-top: 35px;
+    }
+}
+@media (max-width : 480px) {
+    .navbar-brand,
+    .nav-link {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+@media (max-width : 320px) {
+    /**/
+}

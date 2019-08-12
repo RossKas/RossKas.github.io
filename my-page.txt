@@ -23,5 +23,8 @@ https://rosskas.github.io/Paquete_Cava/
 https://rosskas.github.io/action-30/
 https://rosskas.github.io/app/
 
+//bilder
+https://hartemarketingcoop.com/
+
 //vue
 https://rosskas.github.io/vue/pagination-filter-comment/

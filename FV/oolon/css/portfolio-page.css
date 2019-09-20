@@ -1,0 +1,249 @@
+.s-project {
+    padding: 50px 0 0;
+}
+.s-project .radiance-bg {
+    background-image: url(../img/project/project-bg.png);
+}
+.s-project .block-title {
+    margin: 110px 0 70px;
+}
+.project-wrap {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.portfolio-page .block-title .s-title {
+    font-size: 92px;
+}
+.project-item {
+    width: 100%;
+    position: relative;
+    height: 415px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+.project-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+.project-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 92px;
+    letter-spacing: -7px;
+    line-height: 1;
+    color: #ffffff;
+    font-family: "Montserrat-ExtraBold";
+    background-color:rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s ease-in-out;
+}
+.project-item:hover .project-title {
+    opacity: 1;
+    pointer-events: auto;
+}
+.project-1 {
+    background-image: url(../img/project/Oolon_Tepikeñas.png);
+}
+
+.project-block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project-item a {
+    display: grid;
+}
+.project-2 {
+    width: 55%;
+    background-image: url(../img/project/Oolon_Salsa_Huichol.png);
+}
+.project-3 {
+    width: 45%;
+    background-image: url(../img/project/Oolon_Eco_Pandilla.png);
+}
+.project-4 {
+    width: 45%;
+    background-image: url(../img/project/Oolon_Kurago_Biotek.png);
+}
+.project-5 {
+    width: 55%;
+    background-image: url(../img/project/Oolon_Amado_Tepic.png);
+}
+.project-7 {
+    width: 55%;
+    background-image: url(../img/project/Oolon_Tepikeñas.png);
+}
+.project-6 {
+    width: 100%;
+    background-image: url(../img/project/Oolon_Salsa_Huichol.png);
+}
+.project-8 {
+    width: 45%;
+    background-image: url(../img/project/Oolon_Eco_Pandilla.png);
+}
+.project-10 {
+    width: 55%;
+    background-image: url(../img/project/Oolon_Kurago_Biotek.png);
+}
+.project-9 {
+    width: 45%;
+    background-image: url(../img/project/Oolon_Amado_Tepic.png);
+}
+.s-project .portfolio-link {
+    margin: 90px 0;
+}
+.portfolio-page .social-block {
+    width: 100%;
+    margin: 0 auto 50px;
+}
+.more-project {
+    display: none;
+}
+
+/* popup */
+.project-popup-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: auto;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 5;
+    transition: all 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.project-popup-block::before {
+    pointer-events: auto;
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.84);
+    transition: opacity 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.project-popup-hidden,
+.project-popup-hidden::before {
+    opacity: 0;
+    pointer-events: none;
+}
+.project-popup {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.95);
+    padding: 15px;
+}
+.carousel-wrap {
+    width: 55%;
+}
+.carousel-wrap img {
+    width: 100%;
+}
+.project-info-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    padding: 70px 35px;
+}
+.popup-title {
+    font-size: 60px;
+    letter-spacing: -5px;
+    line-height: 25px;
+    color: #ffffff;
+    font-family: "Montserrat-ExtraBold";
+    text-align: center;
+}
+.popup-description {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.popup-more {
+    width: 100%;
+}
+.popup-more .social-block {
+    max-width: 380px;
+}
+.popup-more .portfolio-link a {
+    font-size: 32px;
+}
+
+
+
+@media (max-width: 991px) {
+    .project-item {
+        width: 100% !important;
+        height: 215px;
+        margin: 3px;
+    }
+    .project-title, .popup-title {
+        font-size: 45px;
+        letter-spacing: -2px;
+    }
+    .s-project .portfolio-link {
+        margin: 50px 0;
+    }
+
+    /* popup */
+    .project-popup {
+        flex-direction: column;
+        width: 95%;
+        padding: 53px 15px 20px;
+    }
+    .carousel-wrap, .project-info-wrap {
+        width: 100%;
+    }
+    .project-popup-block {
+        align-items: flex-start;
+    }
+    .project-info-wrap {
+        padding: 20px 0;
+    }
+    .popup-title {
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+    .popup-description {
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .popup-title {
+        font-size: 35px;
+    }
+    .popup-description {
+        font-size: 14px;
+    }
+    
+    
+}

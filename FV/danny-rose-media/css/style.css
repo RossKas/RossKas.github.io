@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap');
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeueRegular.eot');
+    src: local('☺'), url('../fonts/BebasNeueRegular.woff') format('woff'), url('../fonts/BebasNeueRegular.ttf') format('truetype'), url('../fonts/BebasNeueRegular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+html,
+body {
+    color: #fff;
+    font-size: 100%;
+    font-weight: 300;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+input,
+button {
+    outline: none;
+}
+
+
+input::-webkit-input-placeholder {
+    color: #fff !important;
+}
+
+input:-moz-placeholder {
+    color: #fff !important;
+}
+
+input:-ms-input-placeholder {
+    color: #fff !important;
+}
+textarea::-webkit-input-placeholder {
+    color: #fff !important;
+}
+
+textarea:-moz-placeholder {
+    color: #fff !important;
+}
+
+textarea:-ms-input-placeholder {
+    color: #fff !important;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+.main-head {
+    position: relative;
+    padding: 30px 0;
+}
+.page-title {
+    width: 100%;
+    font-size: 47px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #2999c4;
+}
+.page-title span {
+    color: #fff;
+}
+.block-icon {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0 60px;
+}
+.block-icon a {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 0 5px;
+}
+.block-icon a img {
+    width: 100%;
+}
+
+/* s-media */
+.s-media {
+    padding: 0 0 80px;
+}
+.media-block {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    grid-template-areas:
+    "Danny Scorpion Cougar"
+    "Danny Chasing Scrubs";
+}
+.media-block img {
+    width: 100%;
+    height: auto;
+}
+.Danny-img {
+    grid-area: Danny;
+}
+.Scorpion-thumb {
+    grid-area: Scorpion;
+}
+.Chasing-thumb {
+    grid-area: Chasing;
+}
+.Cougar-thumb {
+    grid-area: Cougar;
+}
+.Scrubs-thumb {
+    grid-area: Scrubs;
+}
+
+/* s-contact */
+.s-contact {
+    background-color: #2999c4;
+}
+
+.s-contact .block-title {
+    margin: 70px 0 50px;
+    text-align: center;
+}
+.title-contact {
+    font-size: 38px;
+    font-family: 'BebasNeue', sans-serif;
+}
+.s-contact .block-title p {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    margin: 30px 0 10px;
+}
+#form {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+#form input, #form textarea {
+    width: 100%;
+    border: 1px solid #fff;
+    background: transparent;
+    font-size: 22px;
+    padding: 15px 15px;
+    color: #fff !important;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+    text-align: center;
+}
+#form button {
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px 45px;
+    font-size: 22px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.4s;
+}
+#form button:hover {
+    background: #fff;
+    color: #000;
+}
+#form .block-btn {
+    margin: 0 0 80px;
+    text-align: center;
+}
+.main-foot {
+    background-color: #2999c4;
+}
+.copyright, .copyright a {
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+}
+.copyright a:hover {
+    text-decoration: underline;
+}
+.copyright {
+    margin-top: 40px;
+}
+
+
+@media (max-width : 991px) {
+    .page-title {
+        font-size: 31px;
+    }
+    .block-icon a {
+        width: 40px;
+        height: 40px;
+    }
+    .title-contact {
+        font-size: 33px;
+    }
+    .s-contact .block-title p {
+        font-size: 18px;
+    }
+    #form input,  #form textarea {
+        font-size: 16px;
+        padding: 10px 15px;
+        margin-bottom: 25px;
+    }
+    #form button  {
+        font-size: 16px;
+    }
+    
+    .copyright, .copyright a {
+        font-size: 14px;
+    }
+}
+@media (max-width : 480px) {
+    .media-block {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+        
+    }
+    .s-media {
+        padding: 0;
+    }
+    .block-icon {
+        margin: 10px 0 10px;
+    }
+}
+

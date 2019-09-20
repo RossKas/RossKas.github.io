@@ -1,0 +1,46 @@
+.kenergylabs .title-page {
+  max-width: 100%;
+}
+.kenergylabs .s-title-text p {
+  max-width: 570px;
+  margin: 0 auto 0 0 !important;
+  font-size: 14px;
+}
+.s-expertise .big-subtitle-fon {
+  font-size: 260px;
+}
+.s-process .big-subtitle-fon {
+  font-size: 315px;
+  top: -24px;
+}
+.s-clients .big-subtitle-fon {
+  font-size: 340px;
+  top: 8px;
+  letter-spacing: 1.42px;
+}
+.s-innovators .img-block-home {
+  text-align: right;
+}
+.kenergylabs .s-home-block .img-block-home img {
+  width: 434px;
+  height: auto;
+}
+.sub-title-spec {
+  font-family: "SofiaProBold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+  position: relative;
+  left: -41px;
+  margin-top: 55px;
+}
+.kenergylabs .title-block-home {
+  margin: 37px 0 50px;
+}
+.s-innovators .name-transform {
+  top: 71px;
+  right: 240px;
+  left: auto;
+}
+.s-innovators {
+  padding: 150px 0 250px;
+}

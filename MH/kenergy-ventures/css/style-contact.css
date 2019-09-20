@@ -1,0 +1,732 @@
+.contact .s-title-text>p {
+	line-height: 1.43;
+	letter-spacing: 4.67px;
+}
+
+.contact .s-title-text>p,
+.form-address-right p {
+	line-height: 1.8;
+	font-size: 14px;
+}
+
+.contact .btn-contact-wrap>p,
+.form-address-right p {
+	line-height: 1.67;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+
+.contact .btn-contact-wrap p span {
+	margin-bottom: 6px;
+	display: inline-block;
+}
+
+.btn-contact-wrap > p span,
+.contact .s-title-text > p span,
+.form-address-right p span {
+	font-family: "SofiaProBold", sans-serif;
+}
+
+.contact .title-page {
+	font-size: 100px;
+	margin-bottom: 85px;
+}
+
+.contact .title-page::after {
+	top: 70%;
+}
+
+.contact-wrap-btn {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.state-block,
+.content-style-text {
+	height: 100% !important;
+}
+
+
+
+.content-style-text {
+	position: relative;
+	padding: 50px 40px 20px;
+}
+
+.form-top-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 95px;
+}
+
+.form-address-right {
+	text-align: right;
+}
+
+.form-address-right p {
+	margin: 0 !important;
+	letter-spacing: 4px;
+	font-size: 12px;
+	line-height: 1.8;
+}
+
+.form-logo {
+	position: relative;
+}
+
+.form-logo svg {
+	width: 84px;
+	height: 80px;
+}
+
+.form-state {
+	width: 230px;
+}
+
+.state-title {
+	font-size: 12px;
+	letter-spacing: 4px;
+	font-family: "SofiaProBold", sans-serif;
+}
+
+.state-1 .state-title .form-state-1,
+.state-2 .state-title .form-state-2,
+.state-3 .state-title .form-state-3 {
+	display: inline-block;
+}
+
+.state-1 .form-state .form-title-text-1,
+.state-2 .form-state .form-title-text-2,
+.state-3 .form-state .form-title-text-3 {
+	display: inline-block;
+}
+
+.state-title div {
+	display: none;
+}
+
+.form-state p {
+	display: none;
+	font-size: 8px;
+	letter-spacing: 2.67px;
+	margin: 5px 0 10px !important;
+}
+
+.state-line-wrap {
+	width: 100%;
+	height: 1px;
+	background-color: #000;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.state-2 .state-line-wrap {
+	justify-content: center;
+}
+
+.state-3 .state-line-wrap {
+	justify-content: flex-end;
+}
+
+.state-line-wrap::after {
+	content: "";
+	position: relative;
+	top: -1px;
+	width: 33%;
+	height: 3px;
+	background-color: #94e4ea;
+}
+
+.form-bottom {
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+	left: 0;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.form-email-bottom {
+	font-size: 12px;
+	letter-spacing: 4px;
+	font-family: "SofiaProBold", sans-serif;
+}
+
+.thank-block {
+	text-align: center;
+}
+
+.thank-subtitle {
+	font-size: 12px;
+	letter-spacing: 4px;
+	font-family: "SofiaProBold", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.thank-title {
+	font-family: "Butler", sans-serif;
+	font-size: 50px;
+	max-width: 520px;
+	margin: 0 auto;
+	line-height: 1;
+}
+
+.hidden-vis {
+	visibility: hidden;
+}
+
+.morph-button {
+	position: relative;
+	display: block;
+	margin: 0 auto 0 0;
+	font-family: "SofiaPro", sans-serif;
+}
+
+.morph-button>button,
+.partner-link {
+	position: relative;
+	padding: 0 1em;
+	border: 1px solid #000;
+	background-color: transparent;
+	letter-spacing: 2.67px;
+	font-size: 10px;
+	color: #000;
+	font-family: "SofiaProBold", sans-serif;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.partner-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "SofiaPro", sans-serif;
+	border: 1px solid #000;
+	width: 157px;
+	height: 33px;
+	color: #fff;
+	background-color: #000;
+	margin-right: 20px;
+}
+
+.morph-button.open>button {
+	pointer-events: none;
+}
+
+.morph-content {
+	pointer-events: none;
+}
+
+.morph-button.open .morph-content {
+	pointer-events: auto;
+}
+
+.morph-button-fixed,
+.morph-button-fixed .morph-content {
+	width: 157px;
+	height: 33px;
+}
+
+.morph-button-fixed>button {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: opacity 0.1s 0.5s;
+	transition: opacity 0.1s 0.5s;
+}
+
+.morph-button-fixed.open>button {
+	opacity: 0;
+	-webkit-transition: opacity 0.1s;
+	transition: opacity 0.1s;
+}
+
+.morph-button-fixed .morph-content {
+	position: fixed;
+	z-index: 900;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+	transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+.morph-button-fixed.open .morph-content {
+	opacity: 1;
+}
+
+.morph-button-fixed .morph-content>div {
+	visibility: hidden;
+	height: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.1s, visibility 0s 0.1s, height 0s 0.1s;
+	transition: opacity 0.1s, visibility 0s 0.1s, height 0s 0.1s;
+}
+
+.morph-button-fixed.open .morph-content>div {
+	visibility: visible;
+	height: auto;
+	opacity: 1;
+	-webkit-transition: opacity 0.3s 0.5s;
+	transition: opacity 0.3s 0.5s;
+}
+
+.morph-button-fixed.active>button {
+	z-index: 2;
+}
+
+.morph-button-fixed.active .morph-content {
+	z-index: 1900;
+}
+
+.morph-button.morph-button-overlay {
+	margin: 50px auto;
+}
+
+.morph-button-overlay .morph-content {
+	overflow: hidden;
+	background: #e85657;
+}
+
+.morph-button-overlay.open .morph-content {
+	top: 0 !important;
+	left: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+.morph-button-modal::before {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 800;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.84);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+	pointer-events: none;
+}
+
+.morph-button-modal.open::before {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.morph-button-modal.active::before {
+	z-index: 1800;
+}
+
+.morph-button-modal .morph-content {
+	overflow: hidden;
+	-webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+	transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+.morph-button-modal.open .morph-content {
+	top: 50% !important;
+	left: 50% !important;
+	margin: -349px 0 0 -494px;
+	width: 991px;
+	height: 686px;
+	-webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+	transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+.morph-button-modal .morph-content {
+	background-color: #fff;
+}
+
+.morph-button .morph-content,
+.morph-button.open .morph-content{
+	-webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.form {
+	position: relative;
+	color: #000;
+	display: flex;
+	margin-bottom: 68px;
+}
+
+.form>div {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.form__title {
+	font-size: 1.5rem;
+	margin: 0 0 3rem;
+}
+
+.form__item,
+.form-block-btn-wrap {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 38px;
+	width: 85%;
+	position: relative;
+	display: none;
+}
+
+.form__item--full {
+	grid-column: 1 / span 2;
+}
+
+.form__item--actions {
+	justify-content: center;
+	font-size: 0.8rem;
+	grid-template-columns: 3fr 1fr;
+}
+
+.form__label {
+	display: block;
+	font-size: 20px;
+	font-family: "Butler", sans-serif;
+}
+
+.form__input {
+	padding: 6px 0;
+	width: 100%;
+	font-family: "SofiaPro", sans-serif;
+	font-size: 12px;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+
+.form__error {
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-bottom: 3px solid #94E4EA;
+	position: absolute;
+	bottom: 0;
+	pointer-events: none;
+	opacity: 0;
+}
+
+.form__input:focus {
+	outline: none;
+}
+
+
+.form__link {
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.form__button {
+	display: none;
+	padding: 1rem 2rem;
+	font-weight: bold;
+	font-size: 1rem;
+	border: 0;
+	border-radius: 30px;
+	color: #fff;
+	align-self: center;
+}
+
+.form-block-btn-wrap {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: row;
+	margin: 33px 0 0;
+}
+
+.form-btn-dark {
+	font-size: 8px;
+	letter-spacing: 2.67px;
+	width: 95px;
+	height: auto;
+	padding: 10px 0;
+	border: 1px solid #000;
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+}
+
+.btn-back {
+	display: none;
+	font-size: 8px;
+	letter-spacing: 2.67px;
+	width: 95px;
+	height: auto;
+	padding: 10px 0;
+	border: 1px solid #000;
+	background-color: transparent;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 30px;
+}
+
+.hidden-btn {
+	display: none !important;
+}
+
+.state-2 .btn-back,
+.state-3 .btn-back {
+	display: block;
+}
+
+.state-3 .btn-next,
+.btn-submit {
+	display: none;
+}
+
+.state-3 .btn-submit {
+	display: block;
+}
+
+.state-1 .element-block-1,
+.state-2 .element-block-2,
+.state-3 .element-block-3 {
+	display: flex;
+}
+
+.form__button:focus {
+	outline: none;
+}
+.double-click {
+	pointer-events: none;
+}
+
+/* map */
+.s-map {
+	height: 483px;
+	width: 100%;
+	background-color: #eee;
+	position: relative;
+}
+
+#map {
+	height: 100%;
+}
+
+.s-map .container,
+.map-wrap {
+	height: 100%;
+}
+
+@media (max-width : 1200px) {
+	.contact .title-page {
+		font-size: 45px;
+		margin-bottom: 64px;
+	}
+
+	.contact .s-title-text>p,
+	.contact .btn-contact-wrap>p{
+		font-size: 11px;
+	}
+	.form-address-right p {
+		font-size: 10px;
+	}
+	.morph-button>button, .partner-link {
+		font-size: 8px;
+	}
+	.form-logo svg {
+		width: 45px;
+    height: 41px;
+	}
+	.form__label {
+		font-size: 18px;
+	}
+	.form-top-wrap {
+		margin-bottom: 32px;
+	}
+	.form {
+		margin-bottom: 50px;
+	}
+	.morph-button-modal.open .morph-content {
+		top: 15px !important;
+    height: 547px;
+    margin: 0 0 0 -494px;
+	}
+	.content-style-text {
+    padding: 28px 40px 20px;
+	}
+	.icon-close {
+    width: 44px;
+    height: 44px;
+	}
+	.icon-close span {
+    width: 20px;
+	}
+}
+@media (max-width: 991px) {
+
+	.contact .s-title-text > p,
+	.contact .btn-contact-wrap > p {
+		letter-spacing: 1.2px;
+		font-size: 8px;
+		max-width: 220px;
+	}
+
+	.contact .s-title-text>p {
+		margin-bottom: 30px;
+	}
+
+	.contact .btn-contact-wrap p span {
+		margin-bottom: 2px;
+	}
+
+	.morph-button>button,
+	.partner-link {
+		width: 94px;
+		height: 20px;
+		font-size: 6px;
+		letter-spacing: 1.6px;
+		line-height: 1;
+	}
+
+	.morph-button>button {
+		top: -5px;
+	}
+
+	.morph-button-fixed,
+	.morph-button-fixed .morph-content {
+		width: 100px;
+		height: 20px;
+	}
+
+	.contact .s-title-content {
+		margin: 50px 26px 65px 80px;
+	}
+
+	.contact .s-title-text {
+		margin-bottom: 200px;
+	}
+
+	.s-map {
+		height: 307px !important;
+		margin-bottom: 140px;
+	}
+
+	.morph-button-modal.open .morph-content {
+		top: 20px !important;
+		left: 0% !important;
+		margin: 0;
+		width: 91%;
+		margin: 0 25px;
+		height: 88%;
+		overflow-y: scroll;
+		-webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+		transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+	}
+
+	.form-top-wrap {
+		margin-bottom: 45px;
+	}
+
+	.form-address-right {
+		display: none;
+	}
+
+	.form-logo svg {
+		width: 50px;
+		height: 48px;
+	}
+
+	.form-state {
+		width: 140px;
+	}
+
+	.content-style-text {
+		padding: 50px 10px 20px;
+	}
+
+	.form-logo {
+		top: -35px;
+	}
+
+	.state-title {
+		font-size: 8px;
+		letter-spacing: 2.4px;
+		line-height: 0;
+	}
+
+	.form-state p {
+		font-size: 5px;
+		letter-spacing: 1.67px;
+		margin: 0 0 5px !important;
+	}
+
+	.form__label {
+		font-size: 12px;
+		margin-bottom: 3px;
+	}
+
+	.form {
+		width: 80%;
+		margin: 0 auto;
+		flex-direction: column;
+	}
+
+	.form__item,
+	.form-block-btn-wrap {
+		margin-bottom: 22px;
+		width: 100%;
+	}
+
+	.form-block-btn-wrap {
+		margin: 12px 0 0;
+	}
+
+	.form__input {
+		font-size: 10px;
+	}
+
+	.form-btn-dark,
+	.btn-back {
+		font-size: 6px;
+		width: 63px;
+		height: 22px;
+		line-height: 0;
+	}
+
+	.btn-back {
+		margin-right: 15px;
+	}
+
+	.form-bottom {
+		position: relative;
+		bottom: 0;
+		left: 0;
+		margin: 50px 0 20px;
+	}
+
+	.thank-block {
+		min-height: 150px;
+		height: 47vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.thank-title {
+		font-size: 30px;
+	}
+
+	.thank-subtitle {
+		font-size: 8px;
+		margin-bottom: 5px;
+	}
+
+}
+
+@media (max-width: 480px) {
+	.morph-button-modal.open .morph-content {
+		width: 88%;
+	}
+}

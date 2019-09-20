@@ -1,0 +1,168 @@
+.s-spec-build .img-block-home,
+.s-spec-discover .img-block-home {
+  text-align: right;
+}
+
+.specialties .s-home-block .img-block-home img {
+  width: 434px;
+  height: auto;
+}
+
+.s-spec-build .name-transform {
+  top: 171px;
+  right: 330px;
+  left: auto;
+}
+
+.s-spec-discover .name-transform {
+  top: 119px;
+  right: 275px;
+  left: auto;
+}
+
+.s-spec-strategize .name-transform {
+  top: 98px;
+  left: 260px;
+}
+
+.s-spec-captial .name-transform {
+  top: 147px;
+  left: 306px;
+}
+
+.s-spec-build .home-block-name::before {
+  width: 207%;
+}
+
+.s-spec-build .home-block-name::after {
+  width: 138%;
+}
+
+.sub-title-spec {
+  font-family: "SofiaProBold", sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+  position: relative;
+  left: -41px;
+  margin-top: 55px;
+}
+
+.s-spec-discover .home-block-name::after,
+.s-spec-discover .home-block-name::before {
+  left: 0;
+}
+
+.s-spec-captial .home-block-name::after {
+  width: 105%;
+}
+
+.s-spec-captial .home-block-name::before {
+  left: -170px;
+  width: 140%;
+}
+
+.specialties .title-block-home {
+  margin: 37px 0 50px;
+}
+
+.s-spec-build {
+  padding: 120px 0 0;
+}
+
+.s-spec-strategize {
+  padding: 170px 0 0;
+}
+
+.s-spec-discover {
+  padding: 190px 0 0;
+}
+
+.s-spec-captial {
+  padding: 175px 0 340px;
+}
+
+
+@media (max-width : 1200px) {
+  .sub-title-spec {
+    font-size: 10px;
+  }
+
+  .s-spec-captial {
+    padding: 175px 0 250px;
+  }
+}
+
+@media (max-width : 991px) {
+  .specialties .title-page {
+    max-width: 315px;
+  }
+
+  .specialties .s-title-content {
+    margin: 130px 26px 165px 77px;
+  }
+
+  .specialties .s-home-block .img-block-home img {
+    width: 260px;
+    height: auto;
+  }
+
+  .s-spec-build {
+    padding: 35px 0 0;
+  }
+
+  .s-spec-build .img-block-home,
+  .s-spec-discover .img-block-home {
+    text-align: left;
+    padding: 0 40px;
+  }
+
+  .s-spec-build .name-transform {
+    top: 94px;
+    right: auto;
+    left: -62px;
+  }
+
+  .s-spec-discover .name-transform {
+    top: 74px;
+    right: auto;
+    left: -93px;
+  }
+
+  .sub-title-spec {
+    font-size: 8px;
+    letter-spacing: 2.4px;
+    left: -23px;
+    margin-top: 0;
+  }
+
+  .specialties .title-block-home {
+    margin: 23px 0 20px;
+  }
+
+  .s-home-specialities .img-block-home,
+  .s-spec-strategize .img-block-home {
+    text-align: right;
+    padding: 0 40px;
+  }
+
+  .s-spec-strategize .name-transform {
+    top: 56px;
+    left: auto;
+    right: -109px;
+  }
+
+  .s-spec-captial .name-transform {
+    top: 88px;
+    left: 75px;
+  }
+
+  .s-spec-strategize {
+    padding: 110px 0 0;
+  }
+
+  .s-spec-captial {
+    padding: 120px 0 240px;
+  }
+
+
+}
